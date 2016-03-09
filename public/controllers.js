@@ -99,7 +99,7 @@ exports.CheckoutController = function($scope, $user, $http) {
   };
 
   // For checkout
-  Stripe.setPublishableKey('pk_test_xDDCloo6f7akgdx7NzuEvT0X');
+  Stripe.setPublishableKey('stripe_public_key');
 
   $scope.stripeToken = {
     number: '4242424242424242',
